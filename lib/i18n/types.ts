@@ -27,7 +27,12 @@ export type Dictionary = {
   services: {
     title: string;
     intro: string;
-    items: { title: string; description: string; icon: ServiceIcon }[];
+    items: {
+      slug: string;
+      title: string;
+      description: string;
+      icon: ServiceIcon;
+    }[];
     cta: string;
   };
   pillars: {
@@ -88,7 +93,12 @@ export type Dictionary = {
     pageTitle: string;
     pageDescription: string;
     intro: string;
-    details: { title: string; description: string; bullets: string[] }[];
+    details: {
+      slug: string;
+      title: string;
+      description: string;
+      bullets: string[];
+    }[];
   };
   privacy: {
     pageTitle: string;

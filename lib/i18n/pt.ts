@@ -43,36 +43,42 @@ export const pt: Dictionary = {
       "Do esqueleto em pladur ao acabamento final em pintura, executamos todas as fases dos seus acabamentos interiores e exteriores com a mesma equipa.",
     items: [
       {
+        slug: "pladur",
         title: "Sistemas de Pladur & Divisórias",
         description:
           "Gesso cartonado, divisórias inteligentes, paredes técnicas e tetos falsos lineares ou em massa.",
         icon: "layers",
       },
       {
+        slug: "isolamento",
         title: "Isolamento Térmico & Acústico",
         description:
           "Aplicação de Capoto, lãs minerais e soluções de isolamento que reduzem a fatura energética e o ruído.",
         icon: "thermometer",
       },
       {
+        slug: "gesso",
         title: "Gesso & Rebocos Projetados",
         description:
           "Gesso projetado de alta planeza e rebocos resistentes para superfícies prontas para pintura.",
         icon: "trowel",
       },
       {
+        slug: "pintura",
         title: "Pintura & Acabamentos Finais",
         description:
           "Pinturas interiores e exteriores meticulosas, com preparação cuidada para um acabamento moderno e duradouro.",
         icon: "paint",
       },
       {
+        slug: "fachadas",
         title: "Reabilitação de Fachadas",
         description:
           "Tratamento, reparação e revestimento de fachadas com sistemas certificados.",
         icon: "building",
       },
       {
+        slug: "manutencao",
         title: "Manutenção & Pequenas Obras",
         description:
           "Reparações pontuais, acabamentos parciais e intervenções rápidas para senhorios e empresas.",
@@ -202,6 +208,7 @@ export const pt: Dictionary = {
       "Detalhe técnico dos serviços que prestamos em obra particular, pública e comercial no Minho e Grande Porto.",
     details: [
       {
+        slug: "pladur",
         title: "Sistemas de Pladur & Tetos Falsos",
         description:
           "Estrutura, montagem e acabamento de paredes, tetos e divisórias em gesso cartonado.",
@@ -213,6 +220,7 @@ export const pt: Dictionary = {
         ],
       },
       {
+        slug: "isolamento",
         title: "Isolamento Térmico e Acústico (Capoto)",
         description:
           "Aplicação de sistemas ETICS e isolamentos interiores que reduzem fatura energética e ruído.",
@@ -224,6 +232,7 @@ export const pt: Dictionary = {
         ],
       },
       {
+        slug: "gesso",
         title: "Gesso Projetado e Rebocos",
         description:
           "Nivelamento perfeito de superfícies para acabamentos premium.",
@@ -235,6 +244,7 @@ export const pt: Dictionary = {
         ],
       },
       {
+        slug: "pintura",
         title: "Pintura e Acabamentos Finais",
         description:
           "Pintura interior e exterior com preparação cuidada e tintas de qualidade.",
@@ -246,6 +256,7 @@ export const pt: Dictionary = {
         ],
       },
       {
+        slug: "fachadas",
         title: "Reabilitação de Fachadas",
         description:
           "Tratamento e revestimento de fachadas degradadas, com soluções duradouras.",

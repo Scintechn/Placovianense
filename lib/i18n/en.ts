@@ -43,36 +43,42 @@ export const en: Dictionary = {
       "From the drywall skeleton to the last coat of paint, we handle every stage of your interior and exterior finishes with the same crew.",
     items: [
       {
+        slug: "pladur",
         title: "Drywall systems & partitions",
         description:
           "Gypsum board, smart partitions, technical walls and linear or flat suspended ceilings.",
         icon: "layers",
       },
       {
+        slug: "isolamento",
         title: "Thermal & acoustic insulation",
         description:
           "ETICS (Capoto), mineral wools and insulation solutions that cut energy bills and noise.",
         icon: "thermometer",
       },
       {
+        slug: "gesso",
         title: "Projected plaster & renders",
         description:
           "High-flatness projected plaster and resilient renders — surfaces ready to paint.",
         icon: "trowel",
       },
       {
+        slug: "pintura",
         title: "Painting & final finishes",
         description:
           "Meticulous interior and exterior painting, with careful prep for a modern, durable look.",
         icon: "paint",
       },
       {
+        slug: "fachadas",
         title: "Façade rehabilitation",
         description:
           "Treatment, repair and certified coating systems for deteriorated façades.",
         icon: "building",
       },
       {
+        slug: "manutencao",
         title: "Maintenance & small works",
         description:
           "Targeted repairs, partial finishes and quick interventions for landlords and businesses.",
@@ -202,6 +208,7 @@ export const en: Dictionary = {
       "Technical detail on the services we deliver across private, public and commercial works in Minho and Greater Porto.",
     details: [
       {
+        slug: "pladur",
         title: "Drywall systems & suspended ceilings",
         description:
           "Structure, assembly and finishing of walls, ceilings and partitions in gypsum board.",
@@ -213,6 +220,7 @@ export const en: Dictionary = {
         ],
       },
       {
+        slug: "isolamento",
         title: "Thermal & acoustic insulation (ETICS / Capoto)",
         description:
           "ETICS systems and interior insulation that cut energy bills and noise.",
@@ -224,6 +232,7 @@ export const en: Dictionary = {
         ],
       },
       {
+        slug: "gesso",
         title: "Projected plaster & renders",
         description:
           "Perfect levelling of surfaces for premium finishes.",
@@ -235,6 +244,7 @@ export const en: Dictionary = {
         ],
       },
       {
+        slug: "pintura",
         title: "Painting & final finishes",
         description:
           "Interior and exterior painting with careful prep and quality paints.",
@@ -246,6 +256,7 @@ export const en: Dictionary = {
         ],
       },
       {
+        slug: "fachadas",
         title: "Façade rehabilitation",
         description:
           "Treatment and coating of deteriorated façades with durable solutions.",

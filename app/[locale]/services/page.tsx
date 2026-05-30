@@ -70,8 +70,11 @@ export default async function ServicesPage({
         <Container>
           <div className="space-y-6 sm:space-y-8">
             {t.details.map((d, i) => (
-              <Reveal key={d.title} delay={i * 60}>
-                <article className="rounded-3xl border border-ink-100 bg-white p-7 shadow-sm sm:p-9">
+              <Reveal key={d.slug} delay={i * 60}>
+                <article
+                  id={d.slug}
+                  className="scroll-mt-28 rounded-3xl border border-ink-100 bg-white p-7 shadow-sm sm:p-9"
+                >
                   <div className="grid gap-6 md:grid-cols-[1fr_1.4fr]">
                     <div>
                       <h2 className="font-display text-2xl font-bold text-ink-900">

@@ -15,7 +15,7 @@ import { business, whatsappLink } from "@/lib/business";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { Reveal } from "@/components/ui/Reveal";
-import { ServiceCard } from "@/components/ServiceCard";
+import { ServiceCardLink } from "@/components/ServiceCardLink";
 import { WhatsAppLink } from "@/components/WhatsAppLink";
 import { PhoneLink } from "@/components/PhoneLink";
 import {
@@ -251,11 +251,24 @@ export default async function HomePage({
           </Reveal>
 
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {t.services.items.map((s, i) => (
-              <Reveal key={s.title} delay={i * 80}>
-                <ServiceCard {...s} />
-              </Reveal>
-            ))}
+            {t.services.items.map((s, i) => {
+              // 'manutencao' has no dedicated section on /services; link without anchor.
+              const href =
+                s.slug === "manutencao"
+                  ? `/${locale}/services`
+                  : `/${locale}/services#${s.slug}`;
+              return (
+                <Reveal key={s.slug} delay={i * 80}>
+                  <ServiceCardLink
+                    slug={s.slug}
+                    href={href}
+                    title={s.title}
+                    description={s.description}
+                    icon={s.icon}
+                  />
+                </Reveal>
+              );
+            })}
           </div>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
