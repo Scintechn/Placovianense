@@ -237,14 +237,17 @@ export default async function HomePage({
       <Section variant="paper" id="services">
         <Container>
           <Reveal>
-            <div className="max-w-2xl">
+            <div className="max-w-3xl">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-accent-500">
                 {locale === "pt" ? "Serviços" : "Services"}
               </p>
               <h2 className="mt-2 text-3xl font-bold leading-tight text-ink-900 sm:text-4xl">
                 {t.services.title}
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-ink-500 sm:text-lg">
+              <p className="mt-4 font-display text-sm font-semibold leading-snug text-brand-900 sm:text-base">
+                {t.services.tagline}
+              </p>
+              <p className="mt-3 max-w-2xl text-base leading-relaxed text-ink-500 sm:text-lg">
                 {t.services.intro}
               </p>
             </div>

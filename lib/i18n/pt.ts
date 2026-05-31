@@ -21,7 +21,7 @@ export const pt: Dictionary = {
     eyebrow: "Acabamentos premium · Viana do Castelo",
     headline: "Pladur, tetos falsos e acabamentos rigorosos no Norte de Portugal",
     subheadline:
-      "Há mais de uma década a executar interiores impecáveis em moradias, apartamentos de luxo e espaços públicos. Acabamentos com nivelamento perfeito, isolamento que se sente e prazos cumpridos.",
+      "A Placovianense é especialista em Tetos Falsos, Divisórias, Isolamento Térmico e Acústico, Pintura, Capoto, Gesso e Rebocos Projetados — mais de 10 anos a assinar acabamentos premium em moradias, apartamentos e espaços públicos no Norte de Portugal.",
     primaryCta: "Pedir orçamento por WhatsApp",
     secondaryCta: "Ver serviços",
     trustBadges: [
@@ -39,6 +39,8 @@ export const pt: Dictionary = {
   },
   services: {
     title: "Especialidades Placovianense",
+    tagline:
+      "Tetos Falsos · Divisórias · Isolamento Térmico · Isolamento Acústico · Pintura · Capoto · Gesso & Rebocos Projetados",
     intro:
       "Do esqueleto em pladur ao acabamento final em pintura, executamos todas as fases dos seus acabamentos interiores e exteriores com a mesma equipa.",
     items: [

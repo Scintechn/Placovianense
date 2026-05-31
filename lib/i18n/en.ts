@@ -21,7 +21,7 @@ export const en: Dictionary = {
     eyebrow: "Premium finishes · Viana do Castelo",
     headline: "Drywall, suspended ceilings & premium finishes in Northern Portugal",
     subheadline:
-      "More than a decade delivering flawless interiors across luxury apartments, family homes and public buildings. Perfectly level finishes, real insulation comfort, and deadlines we keep.",
+      "Placovianense specialises in suspended ceilings, partitions, thermal and acoustic insulation, painting, ETICS, plaster and projected renders — over 10 years signing premium finishes across luxury apartments, family homes and public buildings in Northern Portugal.",
     primaryCta: "Get a free quote on WhatsApp",
     secondaryCta: "Explore services",
     trustBadges: [
@@ -39,6 +39,8 @@ export const en: Dictionary = {
   },
   services: {
     title: "Placovianense specialties",
+    tagline:
+      "Suspended Ceilings · Partitions · Thermal Insulation · Acoustic Insulation · Painting · ETICS · Plaster & Projected Renders",
     intro:
       "From the drywall skeleton to the last coat of paint, we handle every stage of your interior and exterior finishes with the same crew.",
     items: [

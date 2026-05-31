@@ -26,6 +26,7 @@ export type Dictionary = {
   };
   services: {
     title: string;
+    tagline: string;
     intro: string;
     items: {
       slug: string;
