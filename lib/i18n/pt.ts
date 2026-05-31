@@ -2,12 +2,12 @@ import type { Dictionary } from "./types";
 
 export const pt: Dictionary = {
   meta: {
-    siteTitle: "Placovianense — Pladur, Tetos Falsos e Acabamentos | Viana do Castelo",
+    siteTitle: "Placovianense — Tetos Falsos, Pladur e Acabamentos | Viana do Castelo",
     siteDescription:
-      "Especialistas em pladur, tetos falsos, isolamento térmico e acústico, gesso e pintura em Viana do Castelo, Braga e Porto. Orçamento gratuito por WhatsApp.",
-    pageTitle: "Placovianense — Pladur, Tetos Falsos e Acabamentos no Norte de Portugal",
+      "A Placovianense é especialista em Tetos Falsos, Divisórias, Isolamento Térmico e Acústico, Pintura, Capoto, Gesso e Rebocos Projetados em Viana do Castelo.",
+    pageTitle: "Placovianense — Tetos Falsos, Pladur e Acabamentos no Norte de Portugal",
     pageDescription:
-      "Mais de 10 anos a entregar acabamentos premium em obras residenciais e comerciais no Minho. Pladur, capoto, gesso, rebocos e pintura com rigor. Peça orçamento.",
+      "A Placovianense é especialista em Tetos Falsos, Divisórias, Isolamento Térmico e Acústico, Pintura, Capoto, Gesso e Rebocos Projetados. Mais de 10 anos em Viana do Castelo, Braga e Porto.",
   },
   nav: {
     home: "Início",
